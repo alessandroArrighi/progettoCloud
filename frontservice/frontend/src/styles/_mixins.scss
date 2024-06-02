@@ -1,0 +1,15 @@
+ @mixin pill {
+    text-align: center;
+    background-color: $primary-color;
+    color: #fff;
+    border: {
+        radius: $radius-pill;
+        color: $primary-color;
+    }
+    padding: {
+        right: $spacing-small;
+        left: $spacing-small;
+        bottom: 7px;
+        top: 4px;
+    }
+ }
